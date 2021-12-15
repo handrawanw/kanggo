@@ -4,6 +4,10 @@ const app = express();
 
 const PORT = process.env.PORT || 2021;
 
+// dotenv
+require("dotenv").config();
+// dotenv
+
 // database
 require("./dbConnect")();
 // database
