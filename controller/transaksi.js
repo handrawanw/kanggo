@@ -1,7 +1,7 @@
 const orderid = require('order-id')('key');
 const mongoose=require("mongoose");
 const ProductModel=require("../model/product");
-const TransaksiModel = require("../model/Transaksi");
+const TransaksiModel = require("../model/transaksi");
 const PembayaranModel = require("../model/pembayaran");
 
 class Transaksi {
